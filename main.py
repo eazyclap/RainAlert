@@ -63,7 +63,7 @@ for item in data:
         rain_time_hour = datetime.datetime.fromtimestamp(rain_time_data).strftime("%H:00")
         rain_hours.append(rain_time_hour)
 
-# If it will rain
+# If it's going to rain
 if bring_umbrella:
     # Set up message
     average_temp = int(average(temperatures))
