@@ -95,4 +95,4 @@ if bring_umbrella:
 else:
     # If it isn't raining, log that message has not been sent
     with open("log.txt", mode="a") as log_file:
-        log_file.write(f"{datetime.date.today()} - No message was sent.")
+        log_file.write(f"{datetime.date.today()} - No message was sent.\n")
